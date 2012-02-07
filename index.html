@@ -1,0 +1,30 @@
+---
+layout: default
+title: Mark Cheeseman
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Blogroll</h1>
+  <ul class="posts">
+    <lib><a href="http://martinfowler.com/bliki">Martin Fowler: Bliki</a> -- Blog/Wiki of Martin Fowler</li>
+  </ul>
+
+  <h1>Podcasts</h1>
+  <ul class="posts">
+     <li><a href="http://distributedpodcast.com">Distributed Podcast</a> -- DDD, DDDD, CQRS, Event Sourcing </li>
+  </ul>
+
+  <h1>Books of Interest</h1>
+  <ul class="posts">
+     <li><a href="http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/">Eric Evans, Domain-Driven Design: Tackling Complexity in the Heart of Software</a> -- The Big Blue Book: foundational material for DDD</li>
+  </ul>
+
+
+</div>

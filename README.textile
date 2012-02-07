@@ -1,0 +1,14 @@
+h1. Hombredequeso Blog Source Data
+
+This repository contains the data for the hombredequeso.github.com blog.
+Overall format and styling originally taken from the blog of Tom Preston-Werner, http://github.com/mojombo/jekyll
+
+h1. License
+
+The following directories and their contents are Copyright Mark Cheeseman. You may not reuse anything therein without my permission:
+
+* _posts/
+* images/
+* _drafts/
+
+All other directories and files are MIT Licensed. 
