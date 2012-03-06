@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-size: 140%;
+  color: black;
   margin-bottom: 1em;
 }
 
@@ -43,7 +45,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #777;
 }
 
 table {
@@ -87,18 +89,27 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: #aad;
+  text-align: right;
   font-weight: bold;
+  font-size: 200%;
   margin-bottom: 2em;
+  border-bottom-style: solid;
+}
+
+.title .subtitle {
+  font-size: 50%;
+  margin-top: 2em;
+  margin-left: 22em;
 }
 
   .site .title a {
-    color: #a00;
+    color: #228;
     text-decoration: none;
   }
 
   .site .title a:hover {
-    color: black;
+    color: #a00;
   }
 
   .site .title a.extra {

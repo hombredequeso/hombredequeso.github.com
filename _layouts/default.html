@@ -11,21 +11,28 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29742078-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </head>
 <body>
 
-<!-- ClickTale Top part -->
-<script type="text/javascript">
-var WRInitTime=(new Date()).getTime();
-</script>
-<!-- ClickTale end of Top part -->
 
 <div class="site">
   <div class="title">
-    <a href="/">The Blog of the Hombre de Queso</a>
+    <a href="/">Programming Seeking Understanding</a>
+	  <div class="subtitle">The blog of Mark Cheeseman</div>
   </div>
   
   {{ content }}
@@ -38,7 +45,8 @@ var WRInitTime=(new Date()).getTime();
     </div>
     <div class="contact">
       <p>
-        <a href="http://github.com/hombredequeso/">github.com/hombredequeso</a><br />
+        <a href="http://github.com/hombredequeso/">Github</a>
+			  <a href="http://au.linkedin.com/in/mcheeseman">Linkedin</a><br/>
       </p>
     </div>
   </div>
