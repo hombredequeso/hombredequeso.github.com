@@ -18,3 +18,11 @@ When starting out to learn serious JavaScript programming (meaning anything more
 * Stoyan Stefanov, _JavaScript Patterns_
 
 The learning curve from the basics of JavaScript to understanding and using the stock patterns that recur in good quality JavaScript can be very steep. This book covers most of the key patterns and their variations that occur time and again in common JavaScript libraries - patterns that should be used in any production quality JavaScript.
+
+Miscellaneous
+-------------
+* [Donald Norman, _The Design of Everyday Things_][DET]
+
+Uncovers the principles of user centered design through a series of entertaining examples. While not specifically oriented towards software development, it remains directly applicable to UI design in spite of its age.
+
+[DET]: http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107
