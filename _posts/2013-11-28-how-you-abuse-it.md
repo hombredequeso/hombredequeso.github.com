@@ -30,12 +30,13 @@ class Invoice
 
 {
 	...
-	Invoice invoice = new Invoice(){
+	Invoice invoice = new Invoice() {
 		CustomerId = customer.Id,
 		ItemId = item.Id,	
 		Date = Datetime.Now,
-		Description = “Test Invoice”;
-		SaveSerializedInvoiceInKeyValueTable(invoice);
+		Description = "Test Invoice"
+	};
+	SaveSerializedInvoiceInKeyValueTable(invoice);
 }
 {% endhighlight %}
 Aside from having some very average code I am not going to be able to take advantage of the natural features in a relational database. Searching will be, well, problematic, and joining between tables — its just not going to happen. Nothing stops me using the database in this way, but really, if I want a key-value database I may well be better off using a key-value database like Riak or Redis.
