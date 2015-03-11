@@ -9,6 +9,10 @@ Domain Driven Design
 
 The Big Blue Book. This book is the foundational text for domain modelling. It includes key concepts such as ubiquitous language, patterns commonly associated with DDD (such as Aggregate and Repository), and much more.
 
+* Vaughn Vernon, [Implementing Domain Driven Design](http://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577)
+
+The Big Red Book. Possibly the best place to start with reading about domain-driven design. This book is a more practially oriented approach than Evans, with a detailed example running through the book. In addition, the re-arrangement of topical ordering to place the strategic patterns before tactical patterns helps avoid the initial (mistaken) impression that DDD is primarily about repositories, aggregates, entities, and value objects. It also includes material related to events and other developments since the Evans book was published.
+
 JavaScript
 ----------
 * Douglas Crockford, _JavaScript: The Good Parts_
