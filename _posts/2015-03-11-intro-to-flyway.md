@@ -5,7 +5,7 @@ title: Flyway Installation on Windows
 
 #{{ page.title }}#
 
-<p class="meta">12 March 2015</p>
+<p class="meta">11 March 2015</p>
 
 As the existing homebrew database migration tool started to show it age and certain limitations, our team recently went looking for a simple, existing solution to the sql database migration requirement. Directed to [Flyway](http://flywaydb.org/) based on the [Thoughtworks Tech Radar](http://www.thoughtworks.com/radar/tools) 'Adopt' recommendation, we set out to replace the existing tool.
 
