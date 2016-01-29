@@ -23,6 +23,16 @@ When starting out to learn serious JavaScript programming (meaning anything more
 
 The learning curve from the basics of JavaScript to understanding and using the stock patterns that recur in good quality JavaScript can be very steep. This book covers most of the key patterns and their variations that occur time and again in common JavaScript libraries - patterns that should be used in any production quality JavaScript.
 
+Functional Programming, F#
+--------------------------
+* Don Syme, Adam Granicz, Antonio Cisternino, [Expert F# 3.0](http://www.apress.com/9781430246503)
+
+Frequently noted as one of the best books to learn F#. This book is routinely revised with newer versions of F# (Expert F# 4.0 is now available).
+
+* Tomas Petricek with Jon Skeet, [Real-World Functional Programming](https://www.manning.com/books/real-world-functional-programming)
+
+The focus of this book is the paradigm of functional programming, as opposed to a specific language. The examples are given in F# and C#, however, and it could quite easily form a basis on which to learn F#.
+
 Miscellaneous
 -------------
 * [Donald Norman, _The Design of Everyday Things_][DET]
