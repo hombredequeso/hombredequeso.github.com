@@ -134,14 +134,12 @@ public static class MyAggregate
     {
         // apply e to initialState, and return the new state.
     }
-    
     public static T Apply(IEnumerable<IEvent> eventStream)
     {
         T emptyState = default(T);
         T currentState = emptyState;
         foreach (var e in eventStream)
             currentState = Apply(currentState, e)
-
     }
 }
 {% endhighlight %}
