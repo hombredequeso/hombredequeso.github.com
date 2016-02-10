@@ -119,7 +119,7 @@ Within an object-oriented paradigm, events may be used to reconstitute aggregate
 {% highlight csharp %}
 public class MyAggregate
 {
-    public MyAggregate(IEnumerable<IEvents> myAggregateEvents)
+    public MyAggregate(IEnumerable<IEvent> myAggregateEvents)
     {
         // replay myAggregateEvents here to reformulate AggregateState
     }
@@ -134,10 +134,10 @@ public static class MyAggregate
     {
         // apply e to initialState, and return the new state.
     }
-
+    
     public static T Apply(IEnumerable<IEvent> eventStream)
     {
-        T emptyState  ...;
+        T emptyState = default(T);
         T currentState = emptyState;
         foreach (var e in eventStream)
             currentState = Apply(currentState, e)
