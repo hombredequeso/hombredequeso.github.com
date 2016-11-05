@@ -3,10 +3,6 @@ layout: post
 title: FsUnit Data Driven Tests
 ---
 
-#{{ page.title }}#
-
-<p class="meta">20 June 2014</p>
-
 First things first, it was with no small joy that I discovered that that FsUnit plays nicely with one of my favorite testing tools, [nCrunch](http://www.ncrunch.net).
 
 Happily on my way developing F# with tests continuously running, it was not long before I was wanting to do data driven tests, and the syntax proved a small challenge.

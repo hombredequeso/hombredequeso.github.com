@@ -3,10 +3,6 @@ layout: post
 title: Conceptual Models
 ---
 
-#{{ page.title }}#
-
-<p class="meta">30 August 2012</p>
-
 ‘Conceptual models’ is one of the core ideas discussed in Donald Norman’s book, [*The Design of Everyday Things*][DET]. A conceptual model is the mental model a person forms that relates their interaction with an interface to the underlying thing the interface controls. It is the explanatory framework a person has to explain how a control operates something.
 
 One example Norman gives is that of thermostat controls. A thermostat interface presents the user with a range of temperatures over which to set the control. However, the interface itself does not explain how the thermostat controls the heating device.

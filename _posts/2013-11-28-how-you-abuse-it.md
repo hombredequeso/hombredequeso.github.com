@@ -3,12 +3,6 @@ layout: post
 title: It's In The Way You (Ab)Use It
 ---
 
-#{{ page.title }}#
-  **(Otherwise Known As: If You Build A Cache, You Will Get A Cache)**
-
-<p class="meta">28 November 2013</p>
-
-
 Databases can be used and abused. It’s nice to use them as intended, but can be quite fun to abuse them too, if you know what you are doing.
 For example, if I create a table in a relational database that looks like this:
 {% highlight sql %}

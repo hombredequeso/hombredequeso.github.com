@@ -3,10 +3,6 @@ layout: post
 title: Aggregates and Documents
 ---
 
-#{{ page.title }}#
-
-<p class="meta">4 December 2013</p>
-
 The most effective principle we have found in determining what should be contained in a RavenDB document is to follow the principles around DDD aggregates. An aggregate is a collection of objects, with one of the those objects as the root, which represents the smallest collection of objects that must be kept consistent at a time. Typically, an aggregate corresponds to the extent of data modified in a single transaction.
 
 Take the following example:

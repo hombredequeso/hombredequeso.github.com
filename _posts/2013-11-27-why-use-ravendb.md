@@ -3,10 +3,6 @@ layout: post
 title: Why You Should Consider Using RavenDb
 ---
 
-#{{ page.title }}#
-
-<p class="meta">27 November 2013</p>
-
 [Why You Should Never Use MongoDB][Mei] is a detailed post describing the experiences of the open source Diaspora project with MongoDb. I do not think it would be a spoiler for anyone if I tell you that it didn’t turn out too well for them. For myself, the outcome seemed nearly inevitable somewhere during the discussion of what constitues a document, with the large scope of data that a document held.
 
 What was a little more difficult to see coming was the various conclusions the article came to. Most notably, I would highlight these: 

@@ -3,10 +3,6 @@ layout: post
 title: Review of Donald Norman, Design of Everyday Things
 ---
 
-#{{ page.title }}#
-
-<p class="meta">15 August 2012</p>
-
 [Donald Norman, *The Design of Everyday Things.*][DET]
 
 This is a book about opening doors. It is a book about setting the temperature of your fridge. It is about using your company phone. It is about turning lights on, and it is about turning taps on. Sounds like a real page turner, doesn't it?

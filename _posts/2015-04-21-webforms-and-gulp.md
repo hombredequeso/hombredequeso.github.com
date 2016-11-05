@@ -3,12 +3,6 @@ layout: post
 title: Webforms and Gulp
 ---
 
-#{{ page.title }}#
-
-<p class="meta">21 April 2015</p>
-
-
-
 Recently at work we have been moving our front end development over to newer technologies. This was motivated by a number of factors.
 
 *	The existing javascript packaging, using the Telerik ScriptManager was not necessarily difficult to use, but tended to be fiddly to work with.

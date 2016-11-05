@@ -3,10 +3,6 @@ layout: post
 title: Denormalized Or Not?
 ---
 
-#{{ page.title }}#
-
-<p class="meta">5 December 2013</p>
-
 It is worth considering futher the nature of the following code, discussed briefly (as option 2) in the previous post:
 {% highlight csharp %}
 class CustomerValueObject

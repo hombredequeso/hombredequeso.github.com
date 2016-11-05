@@ -3,11 +3,6 @@ layout: post
 title: Installing yo ko
 ---
 
-#{{ page.title }}#
-
-<p class="meta">17 March 2015</p>
-
-
 If you have watched [ Steve Sanderson - Architecting large Single Page Applications with Knockout.js](https://vimeo.com/97519516), you may be inspired to try out the Yeoman Knockout single-page application generator. However, if all the bits and pieces are not installed up on your machine, it may take sometime to sort through making it work.
 
 The main challenges likely to be faced are having everything installed so that it 'just works'. In sum, it is necessary to have: nodejs installed, git installed and in the path, Yeoman installed, the Yeoman Knockout generator installed, bower installed, and an http server available. If you have all that sorted out, it just might work!

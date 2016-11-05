@@ -3,10 +3,6 @@ layout: post
 title: Review, Implementing Domain-Driven Design, Chapter 1
 ---
 
-#{{ page.title }}#
-
-<p class="meta">19 February 2013</p>
-
 In the beginning, we had the [*Big Blue Book (Eric Evans, Domain-Driven Design)*][Evans]. Now, we have the [*Big Red Book (Vaughn Vernon, Implementing Domain-Driven Design)*][Vernon]. Vernon's goal is to provide a somewhat more practical guide to using Domain-Driven Design. Where Evans' book is quite a heavy read, Vernon's book is likely to be more accessible, both in its approach to the content and in style.
 
 Structurally, the Big Red Book takes a major departure from Evans book, in presenting the strategic patterns discussed in the final part of Evans book first, before moving on to the tactical patterns that get discussed earlier (primarily in part 2) of Evans book. For many people, this means that many of the tactical patterns that they primarily identify with domain driven design (aggregate, value object, entity, repository, factory) are discussed after the lesser known strategic patterns (bounded context, context map). I expect that this will have the effect of elevating the strategic patterns to the more prominent place they deserve in people's thinking about DDD.

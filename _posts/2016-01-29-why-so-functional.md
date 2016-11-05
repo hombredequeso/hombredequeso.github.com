@@ -3,10 +3,6 @@ layout: post
 title: Why So Functional?
 ---
 
-#{{ page.title }}#
-
-<p class="meta">29 January 2016</p>
-
 In a recent project at work the decision was made to use F# for parts of the system, specifically a website and back-end processing service. A number of reasons contributed to this decision. A common thread was that changes in our style of using an object-oriented language, C#, was naturally leading us towards a more functional style of coding. In this post I outline some of these issues.
 # Immutability
 Overtime, more situations appeared in which problems were solved primarily using immutable objects. This stood in contrast to the more object-oriented approach of encapsulating state within a object, mutated by methods on the object. Initially this tended to appear around the periphery of the primary business domains, but over time it crept into various domains as well. Typically, in approaches such as Domain Driven Design, immutable objects are associated with value objects, as opposed to entities. Elsewhere, immutable objects are prevalent at boundaries between systems within the application, say as DTO's (Data Transfer Objects). But when immutable objects start to form central parts of the business functionality, it is a something of a different matter.

@@ -3,11 +3,6 @@ layout: post
 title: Frameworks and Libraries for an F# Project
 ---
 
-#{{ page.title }}#
-
-<p class="meta">2 February 2016</p>
-
-
 Finding ourselves [pushed in the direction of a more functional programming paradigm](http://hombredequeso.id.au/2016/01/29/why-so-functional.html), our team chose a new, stand-alone project on which to try out F#. At first sight, it was not the sort of project that would show off the benefits of a functional language. But it did have the advantage of being relatively simple (or at least, as simple as anything looks before you actually try to do it). Historically, that suited our team's approach to new technologies: try it first on something fairly simple, something that if things went wrong wouldn't ruin the company; then if it works out, broaden its scope. And so we set out on our new project.
 
 Commencing a project in a new language poses a number of distinct challenges. Such challenges can be even greater when a change in programming paradigm is thrown into the mix, as is case in moving from C# to F#. Some of the main challenges we faced included:
