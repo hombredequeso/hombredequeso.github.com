@@ -7,7 +7,7 @@ title: Programming Seeking Understanding
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span class="blogdate">{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
@@ -17,21 +17,66 @@ title: Programming Seeking Understanding
 
   <h1>Blogroll</h1>
   <ul class="posts">
-    <li><a href="http://svpg.com/articles/">silicon valley product group</a> -- Articles on the process of building great products</li>
-    <li><a href="http://martinfowler.com/bliki">Martin Fowler: Bliki</a> -- Blog/Wiki of Martin Fowler</li>
-    <li><a href="https://blog.acolyer.org/">the morning paper</a> -- an interesting/influential/important paper from the world of CS every weekday morning, as selected by Adrian Colyer </li>
-    <li><a href="http://www.infoq.com/">InfoQ</a></li>
-    <li><a href="https://genehughson.wordpress.com/">Form Follow Function</a> -- Gene Hughson, on architecture and development process</li>
-    <li><a href="https://sergeytihon.wordpress.com/">Sergey Tihon's Blog</a> -- F#, including 'F# Weekly'</li>
-    <li><a href="http://fsharpforfunandprofit.com/">F# For Fun And Profit</a> -- Scott Wlaschin</li>
-    <li><a href="https://michaelfeathers.silvrback.com/">Michael Feathers</a> -- On all things software</li>
-    <li><a href="http://www.troyhunt.com/">troyhunt.com</a> -- Security</li>
-    <li><a href="https://lostechies.com/">Los Techies</a></li>
-    <li><a href="http://markclittle.blogspot.com.au/">Mark Little's Weblog</a></li>
-    <li><a href="http://www.hanselman.com/blog/">Scott Hanselman</a></li>
-    <li><a href="http://jeremydmiller.com/">The Shade Tree Developer</a> -- Jeremy Miller</li>
-    <li><a href="http://withouttheloop.com/">Without the Loop</a> -- Liam McLennan</li>
-    <li><a href="https://blog.8thlight.com/">8th Light</a></li>
+    <li>
+        <a href="http://svpg.com/articles/">silicon valley product group</a>
+        <p class="listannotation">Articles on the process of building great software products</p>
+    </li>
+    <li>
+        <a href="http://martinfowler.com/bliki">Martin Fowler: Bliki</a>
+        <p class="listannotation">Blog/Wiki of Martin Fowler</p>
+    </li>
+    <li>
+        <a href="https://blog.acolyer.org/">the morning paper</a>
+        <p class="listannotation">An interesting/influential/important paper from the world of CS every weekday morning, as selected by Adrian Colyer</p>
+    </li>
+    <li>
+        <a href="http://www.infoq.com/">InfoQ</a>
+        <p class="listannotation">News, articles, presentations on software development</p>
+    </li>
+    <li>
+        <a href="https://genehughson.wordpress.com/">Form Follow Function</a>
+        <p class="listannotation">Gene Hughson, on architecture and development process</p>
+    </li>
+    <li>
+        <a href="https://sergeytihon.wordpress.com/">Sergey Tihon's Blog</a>
+        <p class="listannotation">F#, including 'F# Weekly'</p>
+    </li>
+    <li>
+        <a href="http://fsharpforfunandprofit.com/">F# For Fun And Profit</a>
+        <p class="listannotation">Scott Wlaschin's blog</p>
+    </li>
+    <li>
+        <a href="https://michaelfeathers.silvrback.com/">Michael Feathers</a>
+        <p class="listannotation">On all things software</p>
+    </li>
+    <li>
+        <a href="http://www.troyhunt.com/">troyhunt.com</a>
+        <p class="listannotation">On security</p>
+    </li>
+    <li>
+        <a href="https://lostechies.com/">Los Techies</a>
+        <p class="listannotation">General software development blog</p>
+    </li>
+    <li>
+        <a href="http://markclittle.blogspot.com.au/">Mark Little's Weblog</a>
+        <p class="listannotation">Distributed systems related</p>
+    </li>
+    <li>
+        <a href="http://www.hanselman.com/blog/">Scott Hanselman</a>
+        <p class="listannotation">On software development with an emphasis on Microsoft technologies</p>
+    </li>
+    <li>
+        <a href="http://jeremydmiller.com/">The Shade Tree Developer</a> 
+        <p class="listannotation">Jeremy Miller's software development blog, with an emphasis on Microsoft technologies</p>
+    </li>
+    <li>
+        <a href="http://withouttheloop.com/">Without the Loop</a> 
+        <p class="listannotation">Liam McLennan's Software development</p>
+    </li>
+    <li>
+        <a href="https://blog.8thlight.com/">8th Light</a>
+        <p class="listannotation">Wide ranging software development blog</p>
+    </li>
   </ul>
 
 </div>

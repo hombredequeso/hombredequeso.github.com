@@ -64,15 +64,26 @@ ul.posts {
   margin-bottom: 2em;
 }
 
-  ul.posts li {
-    line-height: 1.75em;
-  }
+ul.posts li {
+  line-height: 1.75em;
+}
 
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
+ul.posts p.listannotation {
+  margin-top: 0pt;
+  margin-left: 20pt;
+  margin-bottom: 10pt;
+  font-size: 90%;
+}
+
+ul.posts span.blogdate {
+  padding-right: 1.8em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
 
 /*****************************************************************************/
 /*
