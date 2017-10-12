@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting Up A Continuous Delivery Pipeline For A Nuget Package Using Appveyor
+title: Continuous Delivery For A Nuget Package Using Appveyor
 date: "2017-10-12"
 ---
 
