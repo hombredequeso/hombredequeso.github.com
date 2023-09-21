@@ -4,28 +4,19 @@ This repository contains the data for the hombredequeso.github.com blog.
 Software Development Blog, using jekyll/github pages.
 
 # Usage
-Current update process uses docker to run the static website locally.
-See https://github.com/Starefossen/docker-github-pages
 
-Current update process is to clone to local machine, cd to blog base directory (containing \_config.yml) and run:
 ```
-docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
-```
+git clone git@github.com:hombredequeso/hombredequeso.github.com.git
+git clone https://github.com/github/pages-gem
 
-If on windows:
-```
-docker run -v %cd%:/usr/src/app -p "4000:4000" starefossen/github-pages
+cd pages-gem
+make image
+SITE=../hombredequeso.github.com make server
+
 ```
 
-A variation of github-pages docker image which serves up the \_drafts pages as if they were in \_posts is available in the dev/ directory. To use:
-```
-cd dev
-docker build --tag hombredequeso/github-pages:latest .
-cd ..
-docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" hombredequeso/github-pages:latest
-```
+The website is available, with watched refreshes of the content on [http://localhost:4000]
 
-Watch dev website at [http://localhost:4000]
 
 # License
 
